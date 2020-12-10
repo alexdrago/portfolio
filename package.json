@@ -3,7 +3,7 @@
   "private": true,
   "description": "Portfolio for alexdrago develop on GatsbyJS",
   "version": "0.1.0",
-  "author": "alexdragoak <llamamealex@gmail.com>",
+  "author": "alexdrago <llamamealex@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.28.1",

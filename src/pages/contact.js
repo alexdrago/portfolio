@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 import styled from "styled-components"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import avatar from "../images/avatar.svg"
@@ -71,15 +70,15 @@ const TextArea = styled.textarea`
 const Button = styled.input`
   background: transparent;
   background-clip: padding-box;
-  border: solid 2px #0bd8a2;
+  border: solid 2px #1f4287;
   border-radius: 0.25rem;
-  color: #0bd8a2;
+  color: #1f4287;
   margin: 0 auto;
   padding: ${props => (props.returnHome ? "0.5rem" : "0.5rem 3rem")};
   text-align: center;
   transition: padding 0.3s ease-in-out;
   &:hover {
-    background: #0bd8a2;
+    background: #1f4287;
     color: white;
     cursor: pointer;
     padding: ${props => (props.returnHome ? "0.5rem 1rem" : "0.5rem 3.5rem")};
@@ -110,8 +109,9 @@ const Contact = ({ location: { pathname } }) => {
     formData.append("email", email)
     formData.append("message", message)
 
+    
     const request = new Request(
-      "https://getform.io/f/d4120f00-de55-4da0-acda-a58b79b3ff75"
+      "https://getform.io/f/5d032162-579a-4ba0-94a4-95a3318093c4"
     )
     const data = {
       method: "POST",
@@ -123,7 +123,7 @@ const Contact = ({ location: { pathname } }) => {
 
     fetch(request, data)
       .then(response => {
-        window.location.replace("https://dsantiagomj.dev/success")
+        window.location.replace("http://localhost:8000/success")
       })
       .catch(e => console.error(e))
   }

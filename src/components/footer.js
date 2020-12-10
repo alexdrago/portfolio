@@ -184,7 +184,7 @@ const Footer = ({ location }) => {
         </a>
 
         <a
-          href="www.linkedin.com/in/alejandro-de-la-fuente/"
+          href="https://www.linkedin.com/in/alejandro-de-la-fuente/"
           target="_blank"
           rel="noreferrer"
         >
@@ -204,7 +204,7 @@ const Footer = ({ location }) => {
       </List>
 
       <AdditionalText>
-        Handcrafted by @alexdrago - © {currentYear}
+        Handcrafted by @Alexdrago - © {currentYear}
       </AdditionalText>
 
       <Copyright>

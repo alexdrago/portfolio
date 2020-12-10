@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 import styled from "styled-components"
-import { AiOutlineMobile } from "react-icons/ai"
 import { BsTerminal } from "react-icons/bs"
 import { GoBrowser } from "react-icons/go"
 
@@ -231,42 +230,12 @@ const IndexPage = ({ location: { pathname } }) => {
       <Container>
         <Wrapper>
           <Card>
-            <CardColumn>
-              <CardIcon>
-                <AiOutlineMobile />
-              </CardIcon>
-              <CardTitle>Mobile Development</CardTitle>
-              <CardText>
-                I have crossed ways with this path a couple of times. I'm very
-                curious about this path and looking forward to digging into it.
-              </CardText>
-              <CardText colored>
-                Languages & tools I've learned and used:
-              </CardText>
-              <CardText>JavaScript, React Native, Expo, Cordova</CardText>
-            </CardColumn>
+
             <CardColumn>
               <CardIcon>
                 <GoBrowser />
               </CardIcon>
               <CardTitle>Frontend Development</CardTitle>
-              <CardText>
-                My main path, I've worked mostly as a frontend developer and I'm
-                loving it. I like to bring ideas to life in the browser.
-              </CardText>
-              <CardText colored>
-                Languages & tools I've learned and used:
-              </CardText>
-              <CardText>
-                HTML5, CSS3, Sass, BEM, JavaScript, JQuery, ReactJs, Redux,
-                GatsbyJs, Shopify
-              </CardText>
-            </CardColumn>
-            <CardColumn lastColumn>
-              <CardIcon>
-                <BsTerminal />
-              </CardIcon>
-              <CardTitle>Backend Development & Others</CardTitle>
               <CardText>
                 Technologies that I've learned on my journey. Some of them
                 crucial on my day by day, others looking forward to using again.
@@ -275,8 +244,25 @@ const IndexPage = ({ location: { pathname } }) => {
                 Languages & tools I've learned and used:
               </CardText>
               <CardText>
-                Terminal, Git, Github, Ruby, Ruby on Rails, JavaScript, NodeJs,
-                ExpressJs, Python, Django, MongoDB, PostgreSQL.
+                HTML5, CSS3, BEM, JavaScript, JQuery, ReactJs, Redux,
+                GatsbyJs.
+              </CardText>
+            </CardColumn>
+            <CardColumn lastColumn>
+              <CardIcon>
+                <BsTerminal />
+              </CardIcon>
+              <CardTitle>Backend Development & Others</CardTitle>
+              <CardText>
+                My main path, I've worked mostly as a backend developer and I'm
+                loving it. I like to bring ideas to life in the browser.
+              </CardText>
+              <CardText colored>
+                Languages & tools I've learned and used:
+              </CardText>
+              <CardText>
+                Terminal, Git, Github, JavaScript, NodeJs,
+                ExpressJs,  MongoDB, PostgreSQL.
               </CardText>
             </CardColumn>
           </Card>

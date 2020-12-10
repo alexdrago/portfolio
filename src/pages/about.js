@@ -98,7 +98,7 @@ const ProjectDescription = styled.ul`
 `
 
 const ProjectLink = styled.p`
-  color: ${props => (props.disabled ? "#0bd8a2aa" : "#0bd8a2")};
+  color: ${props => (props.disabled ? "#0bd8a2aa" : "#278ea5")};
   font-size: 14px;
   font-weight: 550;
   margin-top: 2rem;

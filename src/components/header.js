@@ -44,20 +44,20 @@ const MenuItem = styled.li`
   margin: 0;
   text-decoration: none;
   &:hover {
-    color: #0bd8a2;
+    color: #1f4287;
     cursor: pointer;
   }
 `
 
 const MenuItemButton = styled.button`
   background: transparent;
-  border: solid 2px #0bd8a2;
+  border: solid 2px #1f4287;
   border-radius: 0.25rem;
-  color: #0bd8a2;
+  color: #1f4287;
   padding: 0.5rem;
   transition: background 0.3s ease-in-out;
   &:hover {
-    background: #0bd8a2;
+    background: #1f4287;
     color: white;
     cursor: pointer;
   }
