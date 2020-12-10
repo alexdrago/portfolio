@@ -8,13 +8,13 @@ import { RiGatsbyLine } from "react-icons/ri"
 import LogoImage from "../images/white_logo.png"
 
 const Container = styled.div`
-  background: #00343d;
+  background: #071e3d;
   padding: 4rem 0;
 `
 
 const Card = styled.div`
   align-items: center;
-  background: #141c3a;
+  background: #1f4287;
   border-radius: 12px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
   display: flex;
@@ -54,7 +54,7 @@ const CardText = styled.p`
 
 const CardButton = styled.button`
   background: transparent;
-  border: solid 2px #0bd8a2;
+  border: solid 2px #278ea5;
   border-radius: 0.25rem;
   color: white;
   margin-bottom: 1rem;
@@ -63,7 +63,7 @@ const CardButton = styled.button`
   transition: background 0.3s ease-in-out;
   width: 190px;
   &:hover {
-    background: #0bd8a2;
+    background: #278ea5;
     color: white;
     cursor: pointer;
   }
@@ -92,7 +92,7 @@ const ListItem = styled.li`
   width: 48px;
   &:hover {
     background-color: white;
-    color: #0bd8a2;
+    color: #278ea5;
   }
 `
 const Icon = styled.div`
@@ -166,13 +166,13 @@ const Footer = ({ location }) => {
         <img
           src={LogoImage}
           style={{ margin: 0, maxWidth: 250, height: 100 }}
-          alt="DS Logo"
+          alt="Logo"
         />
       </div>
       <TitleText>Living, learning & leveling up one day at a time.</TitleText>
       <List>
         <a
-          href="https://www.github.com/dsantiagomj/"
+          href="https://www.github.com/alexdrago/"
           target="_blank"
           rel="noreferrer"
         >
@@ -184,7 +184,7 @@ const Footer = ({ location }) => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/dsantiagomj/"
+          href="www.linkedin.com/in/alejandro-de-la-fuente/"
           target="_blank"
           rel="noreferrer"
         >
@@ -194,7 +194,7 @@ const Footer = ({ location }) => {
             </Icon>
           </ListItem>
         </a>
-        <a href="mailto:dsantiagomj@icloud.com" rel="noreferrer">
+        <a href="mailto:llamamealex@gmail.com" rel="noreferrer">
           <ListItem>
             <Icon>
               <AiOutlineMail />
@@ -204,7 +204,7 @@ const Footer = ({ location }) => {
       </List>
 
       <AdditionalText>
-        Handcrafted by @dsantiagomj - © {currentYear}
+        Handcrafted by @alexdrago - © {currentYear}
       </AdditionalText>
 
       <Copyright>

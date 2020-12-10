@@ -111,7 +111,7 @@ const Contact = ({ location: { pathname } }) => {
     formData.append("message", message)
 
     const request = new Request(
-      "https://getform.io/f/0d454f78-7045-41e8-ba8a-bb98a2f03203"
+      "https://getform.io/f/d4120f00-de55-4da0-acda-a58b79b3ff75"
     )
     const data = {
       method: "POST",

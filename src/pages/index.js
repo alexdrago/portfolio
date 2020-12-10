@@ -14,7 +14,7 @@ import avatar from "../images/avatar.svg"
 import hoverAvatar from "../images/hover_avatar.svg"
 
 const Container = styled.div`
-  background-color: ${props => (props.darkBackground ? "#20C98B" : "white")};
+  background-color: ${props => (props.darkBackground ? "#071e3d" : "white")};
   margin: 0 auto;
   min-height: ${props => (props.darkBackground ? "34rem" : "46rem")};
   padding: 2rem;
@@ -36,7 +36,7 @@ const CenteredWrapper = styled(Wrapper)`
 `
 
 const Title = styled.h2`
-  color: #00343d;
+  color: #071e3d;
   font-size: 2.2rem;
   font-weight: 800;
   margin-top: 4rem;
@@ -47,7 +47,7 @@ const Title = styled.h2`
   }
 `
 const Subtitle = styled.p`
-  color: #00343d;
+  color: #071e3d;
   font-size: 1rem;
   margin: 0;
   text-align: center;
@@ -59,14 +59,14 @@ const ButtonWrapper = styled.div`
 `
 const Button = styled.button`
   background: transparent;
-  border: solid 2px #0bd8a2;
+  border: solid 2px #1f4287;
   border-radius: 0.25rem;
-  color: #0bd8a2;
+  color: #1f4287;
   margin: 0 auto;
   padding: 0.5rem;
   transition: padding 0.3s ease-in-out;
   &:hover {
-    background: #0bd8a2;
+    background: #1f4287;
     color: white;
     cursor: pointer;
     padding: 0.5rem 1rem;
@@ -129,13 +129,13 @@ const CardTitle = styled.h3`
   text-align: center;
 `
 const CardIcon = styled.div`
-  color: #0bd8a2;
+  color: #1f4287;
   font-size: 54px;
   margin-bottom: 1.45rem;
   text-align: center;
 `
 const CardText = styled.p`
-  color: ${props => (props.colored ? "#0bd8a2" : "#00343d")};
+  color: ${props => (props.colored ? "#278ea5" : "#00343d")};
   font-size: 14px;
   font-weight: ${props => (props.colored ? "550" : "500")};
   padding: 0 1rem;
@@ -216,12 +216,12 @@ const IndexPage = ({ location: { pathname } }) => {
       <CenteredContainer darkBackground>
         <CenteredWrapper>
           <SectionTitle colored>
-            Hi, I'm Santiago. Pleasure to meet you.
+            Hi, I'm Alejandro. Pleasure to meet you.
           </SectionTitle>
           <SectionText colored>
-            Coming from Barranquilla, Colombia, I started my journey as a
-            developer in 2018. I have special interest in front-end and mobile
-            development, where I have worked most of my projects and
+          Coming from Jaén, Spain, I started my journey as a
+            developer in 2016. I have special interest in front-end and docker,
+            where I have worked most of my projects and
             potentialized my skills. A fan of learning and interacting with new
             technologies, these are the skills I have learned and improved
             during my journey.
