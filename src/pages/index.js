@@ -283,7 +283,7 @@ const IndexPage = ({ location: { pathname } }) => {
               <SubsectionText>Or download a summary of my work</SubsectionText>
               <ButtonWrapper>
                 <a
-                  href="https://docs.google.com/document/d/1gNzzFDvFDE_7reufsQt8Oqi4ozO_--AHzdryvmtXcXA/export?format=pdf"
+                  href="" //TODO poner enlace del CV
                   target="_blank"
                   rel="noreferrer"
                   style={{ margin: "0 auto" }}
